@@ -1,0 +1,56 @@
+.cursor {
+  display: inline-block;
+  width: 8px;
+  border: solid 1px black;
+  margin-left: 3px;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.App > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  /* flex: 0.1; */
+  /* background-color: aqua; */
+}
+.title {
+  padding-left: 4em;
+}
+
+.App .canvas-id {
+  flex: 1.5;
+}
+
+.content-1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.content-2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.content-3 {
+  font-size: 24px;
+  /* font-weight: 500; */
+}
+.text {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .App {
+      flex-direction: column;
+      /* background-color: black; */
+    }
+    
+    .title {
+      padding-left: 1em;
+    }
+}

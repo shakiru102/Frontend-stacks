@@ -1,0 +1,1 @@
+export const angleToRadian = (angle: number) => (Math.PI / 180) *  angle
