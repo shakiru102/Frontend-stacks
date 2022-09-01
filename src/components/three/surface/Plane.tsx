@@ -13,7 +13,7 @@ const Plane = (props: any) => {
     <mesh ref={ref} receiveShadow >
       <planeBufferGeometry args={[10, 20]}  />
       {/* <shaderMaterial transparent opacity={0.3} /> */}
-      <meshStandardMaterial  color={'black'}/>
+      <meshStandardMaterial  color={'white'}/>
     </mesh>
   )
 }

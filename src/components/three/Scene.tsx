@@ -28,7 +28,7 @@ const Scene = () => {
             </Physics>
             <spotLight intensity={0.8} position={[-5, 5, 0]} />
             <spotLight intensity={0.8} position={[0, -5, 0]} />
-            <directionalLight intensity={1.5} position={[0, 8, 2]} castShadow/> 
+            <directionalLight intensity={2} position={[0, 8, 2]} castShadow/> 
             <ambientLight intensity={0.3} />
         </Suspense>
     </Canvas>

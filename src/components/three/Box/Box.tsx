@@ -36,13 +36,7 @@ const Box: FC<BoxProps> = ({
 
   return (
     // @ts-ignore
-    <mesh ref={ref} castShadow onClick={() =>  {
-      if(drop) {
-        api.position.set(position[0], 1, position[2])
-        // api.position.set(position[0], position[1], position[2])
-      }
-      setDrop(true)
-    }}>
+    <mesh ref={ref} castShadow onClick={() => setDrop(true)}>
         <boxBufferGeometry args={args}  />
         <MeshWobbleMaterial 
         factor={ !drop ? factor : 0}
